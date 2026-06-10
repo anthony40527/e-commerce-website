@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/bg\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+#container {
+  margin: 0%;
+}
+#container #header {
+  padding-top: 0%;
+  margin-top: 0%;
+  width: 100%;
+  height: 55px;
+  background-color: black;
+  border-radius: 50px;
+}
+#header ul {
+  float: right;
+}
+#header ul li {
+  display: inline;
+}
+#header ul li a {
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  
+}
+#header ul li :hover{
+ background-color: white;
+ color: black;
+ border-radius: 20px;
+ 
+}
+#header ul li .sub {
+  margin-right: 50px;
+}
+
+
+.h2 {
+  font-size: 29px;
+  color: white;
+  padding: 10px 80px;
+}
+
+#container .search-box .search {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  display: inline;
+  display: grid;
+  grid-area: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: 37%;
+  margin-top: 12%;
+  align-content: center;
+}
+.container {
+  border-radius: 10px;
+  background-color: #f0e9e9;
+  border-color: black;
+  border: 1px;
+  max-width: 1000px;
+  margin-left: 200px;
+  padding: 4rem;
+  
+  margin-top: 200px;
+  width: 100%;
+}
+#container.shop-content.food-box.food-title {
+  color: black;
+}
+#container .shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+}
+.container .shop-content .food-box .food{
+  display: block;
+  cursor: pointer;
+}
+footer{
+  background-color: #f0e9e9;
+  width: 100%;
+  height: 100px;
+}
+.P{
+  font-size: 20PX;
+  font-weight: 70PX;
+  text-align: center;
+}
+P{
+  text-align: center;
+
+}
